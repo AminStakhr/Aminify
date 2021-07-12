@@ -1,3 +1,4 @@
+@import "./normalize.css";
 :root {
     --color-primary: #2587ff;
     --color-secondry: #00d9ff;
@@ -23,10 +24,9 @@ html {
 
 body {
     font-family: Inter, Arial, Helvetica, sans-serif;
-    font-size: 2.4rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
     color: var(--color-body);
-    padding: 1rem;
 }
 
 h1,
@@ -326,7 +326,7 @@ btn--secondary:hover {
 }
 
 .plan__price {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .plan__billing-cycle {
